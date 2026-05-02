@@ -13,3 +13,8 @@ Training Loop - Collect batch of data, ~ 200 loops? idk what is typical
 Fit advantage function by approximating V on that data with 3 step bootstrapping
 
 Repeat.
+
+
+What happened
+
+basically everything but changed trajectories to 20 instead of 200 and added way more epochs
