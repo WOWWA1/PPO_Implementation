@@ -9,7 +9,7 @@ class PolicyNet(nn.Module):
             nn.ReLU(),
             nn.Linear(64,64),
             nn.ReLU(),
-            nn.Linear(64,1)
+            nn.Linear(64,2)
         )
     
     def forward(self,input):
