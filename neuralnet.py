@@ -1,8 +1,8 @@
 import torch 
 import numpy as np
-
+import torch.nn as nn
 class PolicyNet(nn.Module):
-     def __init__(self):
+    def __init__(self):
         super(PolicyNet, self).__init__()
         self.model = nn.Sequential(
             nn.Linear(4,64),
